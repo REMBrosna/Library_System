@@ -1,0 +1,84 @@
+{
+    "app": {
+        "type": "Entry Permit",
+        "msgs": {
+            "createSuccess": "Entry Permit has been created {{appnId}}. You will be redirected to edit page.",
+            "updateSuccess": "Entry Permit {{appnId}} has been updated.",
+            "submitSuccess": "Entry Permit {{appnId}} has been submitted successfully.",
+            "submitError": "Entry Permit {{appnId}} cannot be submitted.",
+            "action": "Entry Permit {{appnId}} has been {{action}}.",
+            "required": "This field is required."
+        },
+        "ep": {
+            "list": {
+                "appNo": "Application Ref No.",
+                "vcrNo": "VCR No",
+                "port": "Port",
+                "shipName": "Ship Name",
+                "imoNo": "IMO No",
+                "eta": "ETA",
+                "etd": "ETD",
+                "status": "Status",
+                "submitDate": "Submit Date",
+                "createBy": "Create By",
+                "applicant": "Applicant",
+                "accountType": "SL/SA",
+                "reSubmitted": "Resubmitted",
+                "expiryDate": "Expiry Date"
+            },
+            "tabs": {
+                "headerDetails": {
+                    "title": "Header Details",
+                    "subGroups": {
+                        "general": "General",
+                        "ship": "Ship",
+                        "tonnage": "Tonnage",
+                        "arrivalDeparture": "Arrival / Departure"
+                    },
+                    "fields": {
+                        "vcrNo": "Vessel Call Ref. Number",
+                        "shipName": "Ship Name",
+                        "shipOwner": "Ship Owner/Ship Operator",
+                        "flagState": "Flag State",
+                        "noOfBarge": "Number of Barge",
+                        "imoNo": "IMO Number",
+                        "callSign": "Call Sign",
+                        "gt": "Gross Tonnage",
+                        "nt": "Net Tonnage",
+                        "dwt": "Dead Weight Tonnage",
+                        "eda": "Estimated Date of Arrival",
+                        "eta": "Time",
+                        "poa": "Port of Arrival",
+                        "terminal": "Terminal",
+                        "edd": "Estimated Date of Departure",
+                        "etd": "Time",
+                        "pod": "Port of Departure",
+                        "address": "Address",
+                        "expiryDate": "Expiry Date"
+                    }
+                },
+                "vesselDetails": {
+                    "title": "Vessel Details",
+                    "subTitle1": "Ship Content",
+                    "subTitle2": "Ship Security Level of Last 10 Ports",
+                    "subTitleError": "Ship Security Level of Last 10 Ports required. Should be one record at least.",
+                    "fields": {
+                        "importGoods": "Imported Goods",
+                        "quantityOfGoods": "Quantity of Goods",
+                        "uom": "Unit of Measure",
+                        "passNum": "Number of Passengers",
+                        "country": "Country of Port",
+                        "port": "Port",
+                        "level": "Security Level",
+                        "seqNo": "Sequence No",
+                        "doa": "Date of Arrival",
+                        "dod": "Date of Departure",
+                        "popup": {
+                            "title": "Add Ship Security Level"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

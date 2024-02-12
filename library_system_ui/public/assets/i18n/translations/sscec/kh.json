@@ -1,0 +1,95 @@
+{
+    "app": {
+        "ssc": {
+            "title": {
+                "sscecVal": "SSCEC",
+                "ssccVal": "SSCC",
+                "sscecDesc": "sscec",
+                "ssccDesc": "sscc",
+                "sscecSsccVal": "SSCEC/SSCC",
+                "sscRouteTitle": "SSCEC & SSCC",
+                "sscRouteTitleList": "បញ្ជី SSCEC & SSCC",
+                "sscListTitle": "បញ្ជីវិញ្ញាបនបត្រត្រួតពិនិត្យអនាម័យនៅលើនាវា & វិញ្ញាបនបត្រលើកលែងការត្រួតពិនិត្យអនាម័យនៅលើនាវា",
+                "sscecFullName": "វិញ្ញាបនបត្រលើកលែងការត្រួតពិនិត្យអនាម័យនៅលើនាវា",
+                "ssccFullName": "វិញ្ញាបនបត្រត្រួតពិនិត្យអនាម័យនៅលើនាវា",
+                "sscFullName": "ត្រួតពិនិត្យអនាម័យនៅលើនាវា",
+                "certificateDetails": "ព័ត៌មានលម្អិតអំពីវិញ្ញាបនបត្រ",
+                "attachmentDetails": "ព័ត៌មានលម្អិតនៃឯកសារភ្ជាប់"
+            },
+            "list": {
+                "appNo": "លេខពាក្យស្នើសុំ",
+                "appType": "ប្រភេទពាក្យស្នើសុំ",
+                "port": "ផែ",
+                "shipName": "ឈ្មោះនាវា",
+                "issueDate": "កាលបវិច្ឆេទចេញ",
+                "submitDate": "កាលបរិច្ឆេទដាក់ស្នើ",
+                "expDate": "កាលបវិច្ឆេទផុតកំណត់",
+                "status": "ស្ថានភាព",
+                "createBy": "អ្នក​ស្នើសុំ",
+                "applicant": "ក្រុមហ៊ុនស្នើសុំ",
+                "accountType": "ក្រុមហ៊ុន/ភ្នាក់ងារនាវា"
+            },
+            "selectDropDowns": {
+                "selShipLine": "ជ្រើសរើសក្រុមហ៊ុននាវា",
+                "selPort": "ជ្រើសរើសផែ",
+                "selShip": "ជ្រើសរើសនាវា",
+                "selApp": "ជ្រើសរើសពាក្យស្នើសុំ"
+            },
+            "buttons": {
+                "newApp": "ពាក្យស្នើសុំថ្មី",
+                "add": "បន្ថែម",
+                "upload": "បញ្ជូន",
+                "uploadFile": "បញ្ជូនឯកសារ",
+                "uploadSample": "បញ្ជូនគំរូ",
+                "yes": "យល់ព្រម",
+                "no": "ទេ",
+                "preview": "មើលជាមុន"
+            },
+            "errSuccMsgs": {
+                "createSuccess": "ត្រួតពិនិត្យអនាម័យនៅលើនាវា {{appnId}} ត្រូវបានបង្កើត។ អ្នកនឹងបន្តទៅទំព័រកែប្រែ។",
+                "updateSuccess": "ត្រួតពិនិត្យអនាម័យនៅលើនាវា {{appnId}} ត្រូវបានធ្វើបច្ចុប្បភាព។",
+                "submitSuccess": "ត្រួតពិនិត្យអនាម័យនៅលើនាវា {{appnId}} ត្រូវបានដាក់ស្នើដោយជោគជ័យ",
+                "submitError": "ត្រួតពិនិត្យអនាម័យនៅលើនាវាមិនអាចដាក់ស្នើបានទេ {{appnId}}.",
+                "delSuccess": "លុបត្រួតពិនិត្យអនាម័យនៅលើនាវា ចោលដោយជោគជ័យ។",
+                "deleteSuccess": "បានលុបដោយជោគជ័យ",
+                "errFetch": "ជួបប្រទះបញ្ហាខណៈពេលទាញយក SSC!",
+                "action": "ត្រួតពិនិត្យអនាម័យនៅលើនាវា {{appnId}} ត្រូវបាន {{action}}.",
+                "uploadFileSuccess": "បញ្ជូនឯកសារដោយជោគជ័យ",
+                "deleteFileSuccess": "លុបឯកសារដោយជោគជ័យ!",
+                "errorFetch": "កំហុសបានជួបប្រទះ ខណៈពេលព្យាយាមទាញយកទិន្នន័យ!",
+                "required": "តម្រូវ",
+                "maxEightChar": "អតិបរមា 8 តួអក្សរ."
+            },
+            "headerFields": {
+                "headerDetTitle": "Header Details",
+                "shipName": "ឈ្មោះនាវា",
+                "imoNo": "លេខ IMO",
+                "callSign": "សញ្ញាហៅ",
+                "country": "ប្រទេស",
+                "sLTin": "លេខ TIN នៃក្រុមហ៊ុននាវា",
+                "sLName": "ឈ្មោះក្រុមហ៊ុននាវា",
+                "sLAdd": "អាសយដ្ឋានក្រុមហ៊ុនកប៉ាល់",
+                "portApplied": "ផែដែលបានចុះឈ្មោះ",
+                "subGroups": {
+                    "shipOwner": "ម្ចាស់នាវា",
+                    "identification": "អត្តសញ្ញាណ",
+                    "application": "ពាក្យស្នើសុំ"
+                }
+            },
+            "tab": {
+                "ladenWeight": "ការផ្ទុកទម្ងន់",
+                "selectUOM": "ជ្រើសរើសខ្នាត",
+                "typeOfCargo": "ប្រភេទទំនិញ",
+                "areasInspected": "តំបន់ដែលបានត្រួតពិនិត្យ",
+                "documentsReviewed": "ឯកសារត្រូវបានពិនិត្យ",
+                "evidenceFound": "រកឃើញភស្តុតាង",
+                "sampleResult": "លទ្ធផលគំរូ",
+                "action": "សកម្មភាព",
+                "controlMeasures": "វិធានការត្រួតពិនិត្យ",
+                "reInspectionDate": "កាលបរិច្ឆេទត្រួតពិនិត្យឡើងវិញ",
+                "commentsRegarding": "មតិទាក់ទងនឹងស្ថានភាពបានរកឃើញ",
+                "comments": "មតិយោបល់"
+            }
+        }
+    }
+}

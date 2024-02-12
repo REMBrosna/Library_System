@@ -1,0 +1,87 @@
+{
+    "app": {
+        "type": "ប្រតិវេទន៍សន្តិសុខ",
+        "msgs": {
+            "createSuccess": "ប្រតិវេទន៍សន្តិសុខ {{appnId}} ត្រូវបានបង្កើត. អ្នកនឹងត្រូវបានបញ្ជូនបន្តទៅទំព័រកែសម្រួល.",
+            "updateSuccess": "ប្រតិវេទន៍សន្តិសុខ {{appnId}} ត្រូវបានធ្វើបច្ចុប្បន្នភាព.",
+            "submitSuccess": "ប្រតិវេទន៍សន្តិសុខ {{appnId}} ត្រូវបានបញ្ជូនដោយជោគជ័យ.",
+            "submitError": "ប្រតិវេទន៍សន្តិសុខ {{appnId}} មិនអាចដាក់ស្នើបានទេ.",
+            "securityLevelRequired": "*សូមបន្ថែមសកម្មភាពកម្រិតសុវត្ថិភាពយ៉ាងហោចណាស់មួយ",
+            "action": "ប្រទិវេទន៍សន្តិសុខលេខ {{appnId}} ត្រូវបាន {{action}}.",
+            "epApprovalRequired": "សេចក្តីប្រកាសនៃពាក្យស្នើសុំសុវត្ថិភាពមិនអាចអនុម័តបានទេ សូមប្រាកដថា ពាក្យស្នើសុំលិខិតអនុញ្ញាតនំាចូលដែលពាក់ព័ន្ធត្រូវបានអនុម័តជាមុនសិន {{appnId}} ",
+            "pasAcknowledgementRequired": "សេចក្តីប្រកាសនៃពាក្យស្នើសុំសុវត្ថិភាព{{appnId}}មិនអាចអនុម័តបានទេ សូមប្រាកដថាពាក្យស្នើសុំលិខិតសុវត្ថិភាពមុនពេលមកដល់ដែលពាក់ព័ន្ធត្រូវបានទទួលស្គាល់ជាមុនសិន"
+        },
+        "dos": {
+            "list": {
+                "appNo": "ប្រភេទពាក្យស្នើសុំ",
+                "appType": "ប្រភេទកម្មវិធី",
+                "port": "ផែ",
+                "apexVoyageNo": "លេខជើងធើ្វដំណើរនាវា",
+                "shipName": "ឈ្មោះនាវា",
+                "expDate": "កាលបរិច្ឆេទផុតកំណត់",
+                "sbtDate": "កាលបរិច្ឆេទដាក់ស្នើ",
+                "status": "ស្ថានភាព",
+                "submitDate": "កាលបរិច្ឆេទដាក់ស្នើ",
+                "createBy": "អ្នក​ស្នើសុំ",
+                "applicant": "ក្រុមហ៊ុនស្នើសុំ",
+                "accountType": "ក្រុមហ៊ុន/ភ្នាក់ងារនាវា",
+                "list": "បញ្ជី"
+            },
+            "tabs": {
+                "headerDetails": {
+                    "title": "បឋមកថាលម្អិត",
+                    "fields": {
+                        "shipName": "ឈ្មោះនាវា",
+                        "imoNo": "លេខ IMO",
+                        "yes": "មាន",
+                        "no": "គ្មាន",
+                        "name": "ឈ្មោះ",
+                        "fax": "ទូរសារ",
+                        "phone": "ទូរសព្ទ",
+                        "email": "សាអេឡិចត្រូនិក",
+                        "address": "អសយដ្ឋាន",
+                        "callSign": "សញ្ញាហៅ",
+                        "countryOfOrigin": "ប្រទេសកំណើត",
+                        "shippingLineTIN": "លេខ TIN នៃក្រុមហ៊ុននាវា",
+                        "shippingLineName": "ឈ្មោះក្រុមហ៊ុននាវា",
+                        "shippingLineAddress": "អសយដ្ឋានក្រុមហ៊ុននាវា",
+                        "port": "ផែដែលបានចុះឈ្មោះ",
+                        "expireDate": "កាលបរិច្ឆេទផុតកំណត់"
+                    }
+                },
+                "declaration": {
+                    "title": "ប្រតិវេទន៍",
+                    "fields": {
+                        "securityLevel": "កម្រិតសន្តិសុខ",
+                        "securityLevelPort": "កម្រិតសន្តិសុខ",
+                        "vhf": "VHF",
+                        "emergencyCall": "Emergency Call",
+                        "activity": "សកម្មភាព",
+                        "portOfFacility": "Port of Facility",
+                        "ship": "នាវា",
+                        "port": "ផែ",
+                        "level": "កម្រិត",
+                        "activities": "សកម្មភាព",
+                        "yes": "មាន",
+                        "no": "គ្មាន",
+                        "add": "បន្ថែម",
+                        "delete": "លុប",
+                        "upload": "បញ្ជូន",
+                        "required": "តម្រូវ",
+                        "shipOwner": "ម្ចាស់នាវា",
+                        "identification": "លេខអត្តសញ្ញាណ",
+                        "arrivalPort": "កំពង់ផែចូលថត",
+                        "inChargeByCso": "ទទួលបន្ទុកដោយមន្ត្រីសន្តិសុខនាវា"
+                    },
+                    "columns": {
+                        "number": "ល.រ",
+                        "activity": "សកម្មភាព",
+                        "portFacility": "The Port of Facility",
+                        "ship": "នាវា",
+                        "action": "សកម្មភាព"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "app": {
+        "type": "Vessel Call",
+        "workbench": "Workbench",
+        "msgs": {
+            "createSuccess": "Vessel Call has been created {{appnId}}. You will be redirected to edit page.",
+            "updateSuccess": "Vessel Call {{appnId}} has been updated.",
+            "submitSuccess": "Vessel Call {{appnId}} has been submitted successfully.",
+            "submitError": "Vessel Call {{appnId}} cannot be submitted.",
+            "deleteSuccess": "Deleted successfully!",
+            "action": "Vessel call {{appnId}} has been {{action}}."
+        },
+        "vc": {
+            "list": {
+                "vcrNo": "VCR No.",
+                "port": "Port Code",
+                "shipName": "Ship Name",
+                "imoNo": "IMO No.",
+                "voyageType": "Voyage Type",
+                "voyageNo": "Voyage No.",
+                "eta": "ETA",
+                "etaTime": "Time",
+                "etd": "ETD",
+                "etdTime": "Time",
+                "submitDate": "Submit Date",
+                "createdBy": "Created By",
+                "applicant": "Applicant",
+                "accountType": "SL/SA",
+                "reSubmitted": "Resubmitted",
+                "status": "Status"
+            },
+            "workbench": {
+                "list": {
+                    "applicationNo": "Application No.",
+                    "status": "Status"
+                }
+            },
+            "tabs": {
+                "clearance": {
+                    "title": "Clearance",
+                    "fields": {}
+                },
+                "generalDetails": {
+                    "title": "General Details",
+                    "subGroups": {
+                        "port": "Port",
+                        "ship": "Ship",
+                        "voyage": "Voyage",
+                        "officialUse": "Official Use",
+                        "notice": "When {{app}} is approved, the amount of data entry will be limited by the system."
+                    },
+                    "fields": {
+                        "port": "Port",
+                        "portOfDeparture": "Port of Departure",
+                        "terminal": "Loading / Unloading Terminal",
+                        "terminalOfDeparture": "Terminal of Departure",
+                        "officeCode": "Office Code",
+                        "shippingLine": "Shipping Line",
+                        "ship": "Ship",
+                        "customsClearance": "Customs Clearance at Border",
+                        "borderGate": "Border Gate",
+                        "shipType": "Ship Type",
+                        "imoNo": "IMO Number",
+                        "callSign": "Call Sign",
+                        "countryOrigin": "Country of Origin",
+                        "lastCountry": "Last Country",
+                        "nextCountry": "Next Country",
+                        "voyageType": "Voyage Type",
+                        "eta": "Estimated Arrival Date (ETA)",
+                        "etaTime": "Time",
+                        "inwardVoyageNo": "Inward Voyage Number",
+                        "edb": "Estimated Date of Berthing (ETB)",
+                        "edbTime": "Time",
+                        "etd": "Estimated Departure Date (ETD)",
+                        "etdTime": "Time",
+                        "atd": "Actual Departure Date (ATD)",
+                        "atdTime": "Time",
+                        "ata": "Actual Arrival Date (ATA/ATB)",
+                        "ataTime": "Time",
+                        "atAnchor": "Anchor at Pilot Station",
+                        "anchorPortArea": "Anchor at Port Area",
+                        "anchorPortAreaTime": "Time",
+                        "actualPilotOnBoard": "Actual Date Pilot on Board",
+                        "actualPilotOnBoardTime": "Time",
+                        "lastPort": "Last Port of Call",
+                        "nextPort": "Next Port of Call",
+                        "outwardVoyageNumber": "Outward Voyage Number",
+                        "noOfBarge": "Number of Barge",
+                        "bargeDesc": "Barge Description",
+                        "reqPilotOnBoard": "Date of Request Pilot on Board",
+                        "reqPilotOnBoardTime": "Time",
+                        "reqCommOnBoard": "Date of Request Committee on Board",
+                        "reqCommOnBoardTime": "Time",
+                        "loa": "Length Over All (M)",
+                        "draft": "Arrival Draft (M)",
+                        "pilotRequest": "Pilot Request",
+                        "radioOptions": {
+                            "yes": "Yes",
+                            "no": "No"
+                        }
+                    }
+                },
+                "shipDetails": {
+                    "title": "Ship Details",
+                    "subGroups": {
+                        "tonnage": "Tonnage",
+                        "dimensions": "Dimensions"
+                    },
+                    "fields": {
+                        "netTonnage": "Net Tonnage (TON)",
+                        "grossTonnage": "Gross Tonnage (TON)",
+                        "deadWeight": "Dead Weight (TON)",
+                        "lengthOverAll": "Length Over All (m)",
+                        "selectUOM": "Select UOM",
+                        "breadthOverAll": "Breadth Over All (m)",
+                        "arrivedPilotStation": "Arrived at Pilot Station",
+                        "arrivalDraft": "Arrival Draft (m)",
+                        "arrDraftFrwrd": "Arrival Draft (F)",
+                        "arrDraftAftr": "Arrival Draft (A)",
+                        "depDraftFrwrd": "Departure Draft (F)",
+                        "depDraftAftr": "Departure Draft (A)",
+                        "airDraft": "Air Draft"
+                    }
+                },
+                "recoveryDetails": {
+                    "title": "Recovery Details"
+                },
+                "cargoDetails": {
+                    "title": "Cargo Details",
+                    "subGroups": {
+                        "generalCargo": "General Cargo",
+                        "dangerousCargo": "Dangerous Cargo",
+                        "containerCargo": "Container Cargo"
+                    },
+                    "fields": {
+                        "popup": {
+                            "generalCargoTitle": "General Cargo Details",
+                            "containerCargoTitle": "Container Cargo Details",
+                            "dangerousCargoTitle": "Dangerous Cargo Details",
+                            "othSize": "Other Size",
+                            "cargoType": "Type of Cargo",
+                            "dgType": "Type",
+                            "cargoName": "Name of Cargo",
+                            "empty": "Empty",
+                            "laden": "Laden",
+                            "containerType": "Container Type",
+                            "containerSize": "Container Size",
+                            "totalQty": "Total Quantity",
+                            "qty": "Quantity",
+                            "type": "Type",
+                            "selectCargoType": "Select Cargo Type"
+                        },
+                        "genCargoTotalQty": "Total Quantity : ",
+                        "dangCargoTotalQty": "Total Quantity : ",
+                        "cntrCargoTotalLaden": "Total Laden : ",
+                        "cntrCargoTotalEmpty": "Total Empty : ",
+                        "required": "This field is required",
+                        "crdtNameOfCrgLength": "Name of Cargo length could not be bigger than 45."
+                    }
+                }
+            }
+        }
+    }
+}

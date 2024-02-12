@@ -1,0 +1,95 @@
+{
+    "app": {
+        "ssc": {
+            "title": {
+                "sscecVal": "SSCEC",
+                "ssccVal": "SSCC",
+                "sscecDesc": "sscec",
+                "ssccDesc": "sscc",
+                "sscecSsccVal": "SSCEC/SSCC",
+                "sscRouteTitle": "SSCEC & SSCC",
+                "sscRouteTitleList": "SSCEC & SSCC List",
+                "sscListTitle": "Ship Sanitation Control Cert & Ship Sanitation Control Exemption Certificate List",
+                "sscecFullName": "Ship Sanitation Control Excemption Certificate",
+                "ssccFullName": "Ship Sanitation Control Certificate",
+                "sscFullName": "Ship Sanitation Control",
+                "certificateDetails": "Certificate Details",
+                "attachmentDetails": "Attachment Details"
+            },
+            "list": {
+                "appNo": "Application No",
+                "appType": "App Type",
+                "port": "Port",
+                "shipName": "Ship Name",
+                "issueDate": "Issued Date",
+                "submitDate": "Submit Date",
+                "createBy": "Create By",
+                "applicant": "Applicant",
+                "accountType": "SL/SA",
+                "expDate": "Expiry Date",
+                "status": "Status"
+            },
+            "selectDropDowns": {
+                "selShipLine": "Select Shipping Line",
+                "selPort": "Select Port",
+                "selShip": "Select Ship",
+                "selApp": "Select Application"
+            },
+            "buttons": {
+                "newApp": "New Application",
+                "add": "Add",
+                "upload": "Upload",
+                "uploadFile": "Upload File",
+                "uploadSample": "Upload Sample",
+                "yes": "Yes",
+                "no": "No",
+                "preview": "Preview"
+            },
+            "errSuccMsgs": {
+                "createSuccess": "Ship Sanitation Control {{appnId}} has been created. You will be redirected to edit page.",
+                "updateSuccess": "Ship Sanitation Control {{appnId}} has been updated.",
+                "submitSuccess": "Ship Sanitation Control {{appnId}} has been submitted successfully.",
+                "submitError": "Ship Sanitation Control {{appnId}} cannot be submitted.",
+                "delSuccess": "Delete Ship Sanitation Control successfully.",
+                "deleteSuccess": "Deleted Successfully",
+                "errFetch": "Error encountered whilte trying to fetch SSC!",
+                "action": "Ship Sanitation Control {{appnId}} has been {{action}}.",
+                "uploadFileSuccess": "Upload file successfully!",
+                "deleteFileSuccess": "Delete file successfully!",
+                "errorFetch": "Error encountered whilte trying to fetch data!",
+                "required": "Required",
+                "maxEightChar": "Maximum of 8 characters."
+            },
+            "headerFields": {
+                "headerDetTitle": "Header Details",
+                "shipName": "Ship Name",
+                "imoNo": "IMO No",
+                "callSign": "Call Sign",
+                "country": "Country",
+                "sLTin": "Shipping Line TIN",
+                "sLName": "Shipping Line Name",
+                "sLAdd": "Shipping Line Address",
+                "portApplied": "Port Applied",
+                "subGroups": {
+                    "shipOwner": "Ship Owner",
+                    "identification": "Identification",
+                    "application": "Application"
+                }
+            },
+            "tab": {
+                "ladenWeight": "Laden Weight",
+                "selectUOM": "Select UOM",
+                "typeOfCargo": "Type of Cargo",
+                "areasInspected": "Areas Inspected",
+                "documentsReviewed": "Documents Reviewed",
+                "evidenceFound": "Evidence Found",
+                "sampleResult": "Sample Result",
+                "action": "Action",
+                "controlMeasures": "Control Measures",
+                "reInspectionDate": "Re-Inspection Date",
+                "commentsRegarding": "Comments regarding condition found",
+                "comments": "Comments"
+            }
+        }
+    }
+}

@@ -1,0 +1,408 @@
+{
+  "app": {
+    "vp": {
+      "list": {
+        "title": "តារាងប្រវត្តិរូបរបស់នាវា",
+        "vesselId": "លេខសម្គាល់នាវា",
+        "shipName": "ឈ្មោះនាវា",
+        "imoNo": "លេខIMO",
+        "vesselType": "ប្រភេទនាវា",
+        "vesselNames": "ឈ្មោះនាវា",
+        "vesselCountry": "ប្រទេសនាវា",
+        "createdBy": "បង្កើតឡើងដោយ",
+        "createdDate": "កាលបរិច្ឆេទបង្កើតឡើង",
+        "status": "ស្ថានភាព"
+      },
+      "generalDetails": {
+        "label": "ព័ត៌មានលម្អិតទូទៅ",
+        "ship": "នាវា",
+        "identification": "អត្តសញ្ញាណ",
+        "built": "ផលិត",
+        "contact": "ទំនាក់ទំនង",
+        "details": {
+          "label": "ព័ត៌មានលម្អិតទូទៅ",
+          "shipType": "ប្រភេទនាវា",
+          "shippingLine": "ក្រុមហ៊ុននាវា",
+          "vesselCode": "លេខកូដនាវា",
+          "vesselName": "ឈ្មោះនាវា",
+          "flag": "សញ្ជាតិនាវា",
+          "originCountry": "ប្រទេសកំណើត",
+          "portOfReg": "កំពង់ផែចុះបញ្ជី",
+          "callSign": "សញ្ញាហៅ",
+          "imo": "លេខ IMO",
+          "shipMasterName": "ឈ្មោះមេបញ្ជាការនាវា",
+          "mmsi": "លេខ MMSI",
+          "officialNo": "លេខផ្លូវការ",
+          "dnvRegistry": "DNV-GL Registry",
+          "builtYear": "ឆ្នាំផលិត",
+          "address1": "អសយដ្ឋាន១",
+          "address2": "អសយដ្ឋាន២",
+          "telephone": "លេខទំនាក់ទំនងការិយាល័យ",
+          "fax": "ទូរសារ",
+          "email": "សារអេឡិចត្រូនិច"
+        },
+        "registry": {
+          "label": "ចុះបញ្ចីនាវា",
+          "personnel": "ចេញដោយ",
+          "issue": "ពត៏មានបុគ្គលិក",
+          "issueDate": "កាលបរិច្ឆេទចេញ",
+          "registryNumber": "លេខ",
+          "portCode": "លេខកូដកំពង់ផែ",
+          "registryName": "ឈ្មោះ"
+        },
+        "charterer": {
+          "label": "អ្នកជួលនាវា",
+          "personnel": "ពត៏មានបុគ្គលិក",
+          "name": "ឈ្មោះ",
+          "regNo": "លេខចុះឈ្មោះ",
+          "contact": "ទំនាក់ទំនង",
+          "email": "សារអេឡិចត្រូនិច",
+          "phoneNo": "លេខទូរស័ព្ទ",
+          "address": "អាសយដ្ឋាន",
+          "address1": "អាសយដ្ឋាន១",
+          "address2": "អាសយដ្ឋាន២",
+          "country": "ប្រទេស"
+        },
+        "bareBoat": {
+          "label": "អ្នកជួលទូកទទេ",
+          "personnel": "ពត៏មានបុគ្គលិក",
+          "name": "ឈ្មោះ",
+          "regNo": "លេខចុះឈ្មោះ",
+          "contact": "ទំនាក់ទំនង",
+          "email": "សារអេឡិចត្រូនិច",
+          "phoneNo": "លេខទូរស័ព្ទ",
+          "address": "អាសយដ្ឋាន",
+          "address1": "អាសយដ្ឋាន១",
+          "address2": "អាសយដ្ឋាន២",
+          "country": "ប្រទេស"
+        },
+        "operator": {
+          "label": "ប្រតិបត្តិករ",
+          "personnel": "ពត៏មានបុគ្គលិក",
+          "name": "ឈ្មោះ",
+          "regNo": "លេខចុះឈ្មោះ",
+          "contact": "ទំនាក់ទំនង",
+          "email": "សារអេឡិចត្រូនិច",
+          "phoneNo": "លេខទូរស័ព្ទ",
+          "address": "អាសយដ្ឋាន",
+          "address1": "អាសយដ្ឋាន១",
+          "address2": "អាសយដ្ឋាន២",
+          "country": "ប្រទេស"
+        },
+        "owner": {
+          "name": "ឈ្មោះ",
+          "regNo": "លេខចុះបញ្ជី",
+          "email": "សាអេឡិចត្រូនិក",
+          "phoneNo": "លេខទូរស័ព្ទ",
+          "addrL1": "អាសយដ្ឋានទី១",
+          "addrL2": "អាសយដ្ឋាន២",
+          "country": "ប្រទេស"
+        }
+      },
+      "capacityAndMachine": {
+        "label": "សមត្ថភាព និងម៉ាស៊ីន",
+        "loadLine": {
+          "label": "Loadline",
+          "tonnage": "ចំណុះផ្ទុក",
+          "grossTonnage": "ចំណុះផ្ទុកសរុប",
+          "netTonnage": "ចំណុះផ្ទុកសុទ្ធ",
+          "length": "បណ្តោយ",
+          "lengthOverall": "បណ្តោយសរុប",
+          "perpendicular": "បណ្តោយនាវារវាងកន្លែងកែង",
+          "moulded": "ផ្សិត",
+          "breadth": "ទទឹងទម្រង់ (ម)",
+          "draught": "ទម្រង់​ព្រាង (ម)",
+          "depth": "ជំរៅទឹកជ្រៅជាងគេ",
+          "draughtTitle": "ជម្រៅស៊ីទឹក",
+          "airDraught": "កម្ពស់អាកាស",
+          "airDraughtCrane": "កម្ពស់អាកាសដងយោង"
+        },
+        "dimension": {
+          "label": "វិមាត្រ",
+          "summer": "រដូវក្តៅ",
+          "freshWater": "ទឹកសាប",
+          "draught": "ជម្រៅស៊ីទឹក",
+          "others": "ផ្សេងៗ",
+          "lightVessel": "ទំងន់នាវា",
+          "sDisplacement": "Displacement (m)",
+          "sDisplacementTon": "Displacement (ton)",
+          "selectUOM": "Select UOM",
+          "sDwt": "DWT (ton)",
+          "sDraught": "ជម្រៅស៊ីទឹក (ម៉ែត្រ)",
+          "sFreeboard": "កំពស់ពីផ្ទៃទឹកមកគែមនាវា",
+          "fwAllowance": "Allowance (m)",
+          "fwFreeboard": "កំពស់ពីផ្ទៃទឹកមកគែមនាវាផ្នែកខាងមុខនាវា",
+          "wDraught": "គំនូសស្នាម ជម្រៅស៊ីទឹក",
+          "dDwt": "D DWT (ton)"
+        },
+        "engine": {
+          "label": "ម៉ាស៊ីន",
+          "mainEng": "ម៉ាស៊ីនមេ",
+          "mainEngType": "ប្រភេទម៉ាស៊ីនមេ",
+          "vpengMaxSpeed": "ល្បឿន អតិបរមា (ណុត)",
+          "vpengNumber": "ចំនួនម៉ាស៊ីន",
+          "vpengCapacity": "កម្លាំងម៉ាស៊ីនអតិបរមា (សេះ)",
+          "thruster": "Thruster",
+          "general": "ទូរទៅ",
+          "bowThruster": "Bow Thruster",
+          "thrusterType": "ប្រភេទ Thruster",
+          "tCapacity": "Thruster Capacity Detail",
+          "rudderType": "Rudder Type",
+          "propeller": "ស្លាបចក្រ"
+        }
+      },
+      "safetyAndStructure": {
+        "label": "សុវត្ថិភាព និងរចនាសម្ព័ន្ធ",
+        "scsf": {
+          "label": "វាលជាក់លាក់នៃថ្នាក់នាវា",
+          "general": "ទូរទៅ",
+          "shipHatchCover": "Ship Hatch Cover",
+          "shipHatchCoverType": "Ship Hatch Cover Type",
+          "container": "ចំនួនកុងតឺន័រ (TEU)",
+          "seCount": "ចំនួនឧបករណ៍សុវត្ថិភាព",
+          "cargoCrane": "ដងយោងទំនិញ",
+          "cargoCraneNumber": "ចំនួនដងយោងទំនិញ",
+          "cargoCraneDesc": "ការពិពណ៌នា",
+          "yes": "យល់ព្រម",
+          "no": "ទេ"
+        },
+        "extraField": {
+          "label": "វាលបន្ថែម",
+          "referSocket": "Refer Sockets",
+          "bollardPull": "Bollard Pull"
+        },
+        "field": {
+          "required": "តម្រូវ",
+          "min": "ការបញ្ចូលត្រូវតែធំជាង ឬស្មើនឹង {{min}}",
+          "numberOnly": "ទសភាគមិនត្រូវបានអនុញ្ញាតទេ។"
+        }
+      },
+      "docAndCert": {
+        "label": "ឯកសារ និង​ វិញ្ញាបនប័ត្រ"
+      },
+      "audit": {
+        "label": "សវនកម្ម"
+      }
+    },
+    "sr": {
+      "msg": {
+        "title": "ការចុះឈ្មោះនាវា",
+        "createSuccess": "ការចុះឈ្មោះនាវារបស់ {{appnId}} ត្រូវបានបង្កើត។",
+        "submitSuccess": "ការចុះឈ្មោះនាវារបស់ {{appnId}} ត្រូវបានដាក់ស្នើដោយជោគជ័យ។",
+        "updateSuccess": "ការចុះឈ្មោះនាវារបស់ {{appnId}} ត្រូវបានធ្វើបច្ចុប្បន្នភាព។",
+        "imoError": "អតិបរមា ២តួអក្សរ.",
+        "editShipRegLabel": "កែតម្រូវព័ត៌មានការចុះឈ្មោះនាវា",
+        "shipRegDetailsLabel": "ព័ត៌មានលម្អិតការចុះឈ្មោះនាវា",
+        "shipRegNewLabel": "ព័ត៌មានលម្អិតការចុះឈ្មោះនាវាថ្មី",
+        "action": "ការចុះឈ្មោះនាវារបស់ {{appnId}} ត្រូវបាន {{action}}.",
+        "queriesRemarks": "សំនួរ និង កំណត់សម្គាល់ផ្សេងៗ",
+        "invalidVesselProfile": "ប្រវត្តិរូបនាវា {{vesselProfileId}} មិនទាន់មានសុពលភាពនៅឡើយទេ។​ សូមកែតម្រូវម្តងទៀត។",
+        "shipRegExist": "{{shipInfo}} ត្រូវបានដាក់ស្នើរ ឬបានចុះបញ្ជីរួចរាល់ជាមួយ {{portCode}}",
+        "blacklistVesselProfile": "Your Vessel {{vesselName}} is under blacklisted from {{startDate}} until {{expireDate}}.",
+        "blacklistVesselProfileForever": "Your Vessel {{vesselName}} is under blacklisted from {{startDate}} onward.",
+        "blacklistVesselProfileByCountry": "Your Vessel's Flag {{flag}} is under blacklisted from {{startDate}} until {{expireDate}}.",
+        "blacklistVesselProfileByCountryForever": "Your Vessel's Flag {{flag}} is under blacklisted from {{startDate}} onward.",
+        "blacklistShip": "Your Vessel {{vesselName}} is under blacklisted."
+      },
+      "list": {
+        "title": "បញ្ជីចុះឈ្មោះនាវា",
+        "regNo": "លេខចុះបញ្ជី",
+        "regPort": "ផែចុះបញ្ជី",
+        "imoNo": "លេខ IMO",
+        "vesselId": "លេខសម្គាល់នាវា",
+        "vesselType": "ប្រភេទនាវា",
+        "vesselName": "ឈ្មោះនាវា",
+        "submitDate": "កាលបរិច្ឆេទដាក់ស្នើ",
+        "createdBy": "អ្នក​ស្នើសុំ",
+        "applicant": "ក្រុមហ៊ុនស្នើសុំ",
+        "accountType": "ក្រុមហ៊ុន/ភ្នាក់ងារនាវា",
+        "expiryDate": "កាលបរិច្ចេទផុតកំណត់",
+        "status": "ស្ថានភាព"
+      },
+      "tabs": {
+        "generalDetails": {
+          "title": "ព័ត៌មានលម្អិតទូទៅ",
+          "generalDetails": {
+            "title": "ព័ត៌មានលម្អិតទូទៅ",
+            "fields": {
+              "shipType": "ប្រភេទនាវា",
+              "flag": "សញ្ជាតិនាវា",
+              "shipMasterName": "ឈ្មោះមេបញ្ជីការនាវា",
+              "vesselName": "ឈ្មោះនាវា",
+              "vesselCode": "លេខកូដនាវា",
+              "originCountry": "ប្រទេសកំណើត",
+              "shippingLine": "ក្រុមហ៊ុននាវា",
+              "portRegistry": "កំពង់ផែចុះបញ្ជី",
+              "callSign": "សញ្ញាហៅ",
+              "imo": "លេខ IMO",
+              "mmsi": "លេខ MMSI",
+              "officialNo": "លេខផ្លូវការ",
+              "registry": "DNV-GL Registry",
+              "builtYear": "ឆ្នាំផលិត",
+              "builtAddress1": "អាសយដ្ឋានផលិត ១",
+              "builtAddress2": "អាសយដ្ឋានផលិត ២",
+              "officeTelephone": "លេខទំនាក់ទំនងការិយាល័យ",
+              "fax": "ទូរសារ",
+              "email": "សារអេឡិចត្រូនិច"
+            },
+            "subGroups": {
+              "ship": "នាវា",
+              "identification": "អត្តសញ្ញាណ",
+              "built": "ផលិត",
+              "contact": "ទំនាក់ទំនង"
+            }
+          },
+          "registry": {
+            "title": "ការចុះឈ្មោះ",
+            "fields": {
+              "name": "ឈ្មោះ",
+              "number": "លេខ",
+              "issueDate": "កាលបរិច្ឆេទចេញ",
+              "originCountry": "ប្រទេសកំណើត",
+              "portCode": "លេខកូដកំពង់ផែ"
+            },
+            "subGroups": {
+              "registry": "ការចុះឈ្មោះ",
+              "issue": "ចេញ"
+            }
+          },
+          "charterer": {
+            "title": "អ្នកជួលនាវា",
+            "fields": {
+              "name": "ឈ្មោះ",
+              "registrationNo": "លេខចុះបញ្ជី",
+              "email": "សារអេឡិចត្រូនិច",
+              "phoneNo": "លេខទំនាក់ទំនង",
+              "address1": "អាសយដ្ឋានទី១",
+              "address2": "អាសយដ្ឋានទី២",
+              "country": "ប្រទេស"
+            },
+            "subGroups": {
+              "personnel": "ព័ត៌មានបុគ្គលិក",
+              "contact": "ទំនាក់ទំនង",
+              "address": "អាសយដ្ឋាន"
+            }
+          },
+          "bareBoat": {
+            "title": "អ្នកជួលទូកទទេ",
+            "fields": {
+              "name": "ឈ្មោះ",
+              "registrationNo": "លេខចុះបញ្ជី",
+              "email": "សារអេឡិចត្រូនិច",
+              "phoneNo": "លេខទូរស័ព្ទ",
+              "address1": "អាសយដ្ឋានទី១",
+              "address2": "អាសយដ្ឋានទី២",
+              "country": "ប្រទេស"
+            },
+            "subGroups": {
+              "personnel": "ព័ត៌មានបុគ្គលិក",
+              "contact": "ទំនាក់ទំនង",
+              "address": "អាសយដ្ឋាន"
+            }
+          },
+          "operator": {
+            "title": "ប្រតិបត្តិករ",
+            "fields": {
+              "name": "ឈ្មោះ",
+              "registrationNo": "លេខចុះបញ្ជី",
+              "email": "សារអេឡិចត្រូនិច",
+              "phoneNo": "លេខទូរស័ព្ទ",
+              "address1": "អាសយដ្ឋានទី១",
+              "address2": "អាសយដ្ឋានទី២",
+              "country": "ប្រទេស"
+            },
+            "subGroups": {
+              "personnel": "ព័ត៌មានបុគ្គលិក",
+              "contact": "ទំនាក់ទំនង",
+              "address": "អាសយដ្ឋាន"
+            }
+          }
+        },
+        "capacityMachinery": {
+          "title": "សមត្ថភាព និងម៉ាស៊ីន",
+          "loadLine": {
+            "title": "LoadLine",
+            "fields": {
+              "grossTonnage": "ចំណុះផ្ទុកសរុប",
+              "netTonnage": "ចំណុះផ្ទុកសុទ្ធ",
+              "lengthOverall": "បណ្តោយសរុប",
+              "lengthBwperPerpendicular": "ប្រវែង b/w កាត់កែង (ម)",
+              "bredthMoulded": "ទទឹងទម្រង់ (ម)",
+              "draughtMoulded": "ទម្រង់​ព្រាង (ម)",
+              "depthMoulded": "ជម្រៅផ្សិត (ម)",
+              "airDraught": "សេចក្តីព្រាងអាកាស (ម)",
+              "airDraughtCranes": "ស្ទូចយន្តហោះ (ម)"
+            }
+          },
+          "dimensions": {
+            "title": "វិមាត្រ",
+            "fields": {
+              "lightVessel": "ទំងន់នាវា",
+              "summerDisplacement": "កម្រិតផ្ទុកនាវាក្នុងរដូវក្តៅ",
+              "sdwt": "S DWT",
+              "sDraught": "S សេចក្តីព្រាង",
+              "sFreeboard": "S Freeboard",
+              "fwAllowance": "ប្រាក់ឧបត្ថម្ភ F.W",
+              "fwFreeboard": "F.W Freeboard",
+              "wDraught": "W សេចក្តីព្រាង",
+              "wdwt": "W DWT"
+            }
+          },
+          "engine": {
+            "title": "ម៉ាស៊ីន",
+            "thruster": "Thruster",
+            "general": "ព័ត៌មានទូទៅ",
+            "fields": {
+              "mainEngine": "ម៉ាស៊ីនមេ",
+              "mainEngineType": "ប្រភេទម៉ាស៊ីនមេ",
+              "srengMaxSpeed": "ល្បឿន អតិបរមា(knots)",
+              "srengNumber": "ចំនួនម៉ាស៊ីន",
+              "srengCapacity": "អនុភាពម៉ាស៊ីន (កម្លាំងសេះ)",
+              "bowThruster": "Bow Thruster",
+              "thrusterType": "Thruster Type",
+              "thrusterCapacity": "Thruster Capacity Detail",
+              "rudderType": "Rudder Type",
+              "propeller": "ស្លាបចក្រ"
+            }
+          }
+        },
+        "safetyStructure": {
+          "title": "សុវត្ថិភាព និងរចនាសម្ព័ន្ធ",
+          "shipClassSpecificFields": {
+            "title": "វាលជាក់លាក់នៃថ្នាក់នាវា",
+            "fields": {
+              "containers": "ចំនួនកុងតឺន័រ(TEU)",
+              "count": "ចំនួនឧបករណ៍សុវត្ថិភាព",
+              "cargoCranes": "ចំនួនដងយោងទំនិញ",
+              "cargoCranesDesc": "ពិពណ៌នា"
+            }
+          },
+          "extraFields": {
+            "title": "វាលបន្ថែម",
+            "fields": {
+              "referSockets": "Refer Sockets",
+              "bollardPull": "Bollard Pull"
+            }
+          },
+          "field": {
+            "required": "តម្រូវ",
+            "min": "ការបញ្ចូលត្រូវតែធំជាង ឬស្មើនឹង {{min}}",
+            "numberOnly": "ការបញ្ចូលអនុញ្ញាតឱ្យតែលេខប៉ុណ្ណោះ។ ទសភាគមិនត្រូវបានអនុញ្ញាតទេ"
+          }
+        },
+        "header": {
+          "fields": {
+            "registration": "ការចុះឈ្មោះនាវា",
+            "certificate": "វិញ្ញាបនបត្រ",
+            "ship": "នាវា",
+            "appliedPort": "កំពង់ផែ",
+            "expiryDate": "កាលបរិច្ឆេទផុតកំណត់",
+            "identification": "អត្តសញ្ញាណ",
+            "built": "ផលិត",
+            "contact": "ទំនាក់ទំនង"
+          }
+        }
+      }
+    }
+  }
+}

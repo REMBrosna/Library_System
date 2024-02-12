@@ -1,0 +1,87 @@
+{
+    "app": {
+        "type": "Declaration of Security",
+        "msgs": {
+            "createSuccess": "Declaration of Security {{appnId}} has been created. You will be redirected to edit page.",
+            "updateSuccess": "Declaration of Security {{appnId}} has been updated.",
+            "submitSuccess": "Declaration of Security {{appnId}} has been submitted successfully.",
+            "submitError": "Declaration of Security {{appnId}} cannot be submitted.",
+            "securityLevelRequired": "*Please Add at least one Security Level Activity",
+            "action": "Declaration of Security {{appnId}} has been {{action}}.",
+            "epApprovalRequired": "Declaration of Security application {{appnId}} cannot be approved. Please make sure the related Entry Permit application is approved first.",
+            "pasAcknowledgementRequired": "Declaration of Security application {{appnId}} cannot be approved. Please make sure the related Pre-Arrival Security application is acknowledged first."
+        },
+        "dos": {
+            "list": {
+                "appNo": "Application No.",
+                "appType": "App Type",
+                "port": "Port",
+                "apexVoyageNo": "Voyage No",
+                "shipName": "Ship Name",
+                "expDate": "Expiry Date",
+                "sbtDate": "Submit Date",
+                "status": "Status",
+                "submitDate": "Submit Date",
+                "createBy": "Create By",
+                "applicant": "Applicant",
+                "accountType": "SL/SA",
+                "list": "list"
+            },
+            "tabs": {
+                "headerDetails": {
+                    "title": "Header Details",
+                    "fields": {
+                        "shipName": "Ship Name",
+                        "imoNo": "IMO No",
+                        "yes": "Yes",
+                        "no": "No",
+                        "name": "Name",
+                        "fax": "Fax",
+                        "phone": "Phone",
+                        "email": "Email",
+                        "address": "Address",
+                        "callSign": "Call Sign",
+                        "countryOfOrigin": "Country of Origin",
+                        "shippingLineTIN": "Shipping Line TIN",
+                        "shippingLineName": "Shipping Line Name",
+                        "shippingLineAddress": "Shipping Line Address",
+                        "port": "Port Applied",
+                        "expireDate": "Expiry Date"
+                    }
+                },
+                "declaration": {
+                    "title": "Declaration",
+                    "fields": {
+                        "securityLevel": "Security Level",
+                        "securityLevelPort": "Security Level",
+                        "vhf": "VHF",
+                        "emergencyCall": "Emergency Call",
+                        "activity": "Activity",
+                        "portOfFacility": "Port of Facility",
+                        "ship": "Ship",
+                        "port": "Port",
+                        "level": "Level",
+                        "activities": "Activities",
+                        "yes": "Yes",
+                        "no": "No",
+                        "add": "Add",
+                        "delete": "Delete",
+                        "upload": "Upload",
+                        "required": "Required",
+                        "shipOwner": "Ship Owner",
+                        "identification": "Identification",
+                        "arrivalPort": "Arrival Port",
+                        "inChargeByCso": "In charge by Ship Security Officer"
+                    },
+                    "columns": {
+                        "number": "No.",
+                        "activity": "Activity",
+                        "portFacility": "The Port of Facility",
+                        "ship": "The Ship",
+                        "action": "Action"
+                    }
+                }
+            }
+        }
+    }
+}

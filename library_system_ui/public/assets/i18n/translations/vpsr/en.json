@@ -1,0 +1,355 @@
+{
+    "app": {
+        "vp": {
+            "list": {
+                "title": "Borrow Profile List",
+                "vesselId": "Vessel ID",
+                "shipName": "Ship Names",
+                "imoNo": "IMO No.",
+                "vesselType": "Vessel Type",
+                "vesselNames": "Vessel Names",
+                "vesselCountry": "Vessel Country",
+                "createdBy": "Created By",
+                "createdDate": "Created Date",
+                "status": "Status"
+            },
+            "generalDetails": {
+                "label": "Borrow Details",
+                "ship": "Ship",
+                "identification": "Identification",
+                "built": "Built",
+                "contact": "Contact",
+                "details": {
+                    "shipType": "Ship Type",
+                    "shippingLine": "Shipping Line",
+                    "vesselCode": "Vessel Code",
+                    "vesselName": "Vessel Names",
+                    "flag": "Flag",
+                    "originCountry": "Origin Country",
+                    "portOfReg": "Port of Registry",
+                    "callSign": "Call Sign",
+                    "imo": "IMO",
+                    "shipMasterName": "ShipMaster Name",
+                    "mmsi": "MMSI",
+                    "officialNo": "Official No",
+                    "dnvRegistry": "DNV-GL Registry",
+                    "builtYear": "Built Year",
+                    "address1": "Build Address 1",
+                    "address2": "Build Address 2",
+                    "telephone": "Office Telephone",
+                    "fax": "Fax",
+                    "email": "Email"
+                },
+                "registry": {
+                    "label": "Registry",
+                    "issue": "Issue",
+                    "personnel": "Personnel",
+                    "issueDate": "Issue Date",
+                    "registryNumber": "Number",
+                    "portCode": "Port Code",
+                    "registryName": "Name"
+                },
+                "charterer": {
+                    "label": "Charterer",
+                    "personnel": "Personnel",
+                    "name": "Name",
+                    "regNo": "Registration No",
+                    "contact": "Contact",
+                    "email": "Email",
+                    "phoneNo": "Phone No",
+                    "address": "Address",
+                    "address1": "Address 1",
+                    "address2": "Address 2",
+                    "country": "Country"
+                },
+                "bareBoat": {
+                    "label": "BareBoat Charterer",
+                    "personnel": "Personnel",
+                    "name": "Name",
+                    "regNo": "Registration No",
+                    "contact": "Contact",
+                    "email": "Email",
+                    "phoneNo": "Phone No",
+                    "address": "Address",
+                    "address1": "Address 1",
+                    "address2": "Address 2",
+                    "country": "Country"
+                },
+                "operator": {
+                    "label": "Operator",
+                    "personnel": "Personnel",
+                    "name": "Name",
+                    "regNo": "Registration No",
+                    "contact": "Contact",
+                    "email": "Email",
+                    "phoneNo": "Phone No",
+                    "address": "Address",
+                    "address1": "Address 1",
+                    "address2": "Address 2",
+                    "country": "Country"
+                },
+                "owner": {
+                    "name": "Name",
+                    "regNo": "Registration No",
+                    "email": "Email",
+                    "phoneNo": "Phone No",
+                    "addrL1": "Address 1",
+                    "addrL2": "Address 2",
+                    "country": "Country"
+                }
+            },
+       
+            "safetyAndStructure": {
+                "label": "Safety & Structure",
+                "scsf": {
+                    "label": "Ship Class Specific Field",
+                    "general": "General",
+                    "shipHatchCover": "Ship Hatch Cover",
+                    "shipHatchCoverType": "Ship Hatch Cover Type",
+                    "container": "Number of Containers(TEU)",
+                    "seCount": "Number of Safety Equipment",
+                    "cargoCrane": "Cargo Crane",
+                    "cargoCraneNumber": "Number of Cargo Cranes",
+                    "cargoCraneDesc": "Description",
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "extraField": {
+                    "label": "Extra Fields",
+                    "referSocket": "Refer Sockets",
+                    "bollardPull": "Bollard Pull"
+                },
+                "field": {
+                    "required": "Required",
+                    "min": "Input must be greater than or equal to {{min}}",
+                    "numberOnly": "Decimals are not allowed."
+                }
+            },
+            "docAndCert": {
+                "label": "Docs & Certificates"
+            },
+            "audit": {
+                "label": "Audits"
+            }
+        },
+        "sr": {
+            "msg": {
+                "title": "Ship Registration",
+                "createSuccess": "Ship Registration {{appnId}} has been created.",
+                "submitSuccess": "Ship Registration {{appnId}} has been submitted.",
+                "updateSuccess": "Ship Registration {{appnId}} has been updated.",
+                "imoError": "Maximum of 2 characters.",
+                "editShipRegLabel": "Edit Ship Registration Detail",
+                "shipRegDetailsLabel": "Ship Registration Details",
+                "shipRegNewLabel": "New Ship Registration Details",
+                "action": "Ship Registration {{appnId}} has been {{action}}.",
+                "queriesRemarks": "Queries & Remarks",
+                "invalidVesselProfile": "This vessel profile {{vesselProfileId}} is not valid yet. Please update it accordingly",
+                "shipRegExist": "{{shipInfo}} with Port {{portCode}} has already been submitted or registered.",
+                "blacklistVesselProfile": "Your Vessel {{vesselName}} is under blacklisted from {{startDate}} until {{expireDate}}.",
+                "blacklistVesselProfileForever": "Your Vessel {{vesselName}} is under blacklisted from {{startDate}} onward.",
+                "blacklistVesselProfileByCountry": "Your Vessel's Flag {{flag}} is under blacklisted from {{startDate}} until {{expireDate}}.",
+                "blacklistVesselProfileByCountryForever": "Your Vessel's Flag {{flag}} is under blacklisted from {{startDate}} onward.",
+                "blacklistShip": "Your Vessel {{vesselName}} is under blacklisted."
+            },
+            "list": {
+                "title": "Ship Registration List",
+                "regNo": "Reg No.",
+                "regPort": "Reg Port",
+                "imoNo": "IMO No",
+                "vesselId": "Vessel ID",
+                "vesselType": "Vessel Type",
+                "vesselName": "Vessel Names",
+                "submitDate": "Submit Date",
+                "createdBy": "Created By",
+                "applicant": "Applicant",
+                "accountType": "SL/SA",
+                "expiryDate": "Expiry Date",
+                "status": "Status"
+            },
+            "tabs": {
+                "generalDetails": {
+                    "title": "General Details",
+                    "generalDetails": {
+                        "title": "Borrow Profile",
+                        "fields": {
+                            "shipType": "Ship Type",
+                            "flag": "Flag",
+                            "shipMasterName": "ShipMaster Name",
+                            "vesselName": "Vessel Name",
+                            "vesselCode": "Vessel Code",
+                            "originCountry": "Origin Country",
+                            "shippingLine": "Shipping Line",
+                            "portRegistry": "Port of Registry ",
+                            "callSign": "Call Sign",
+                            "imo": "IMO",
+                            "mmsi": "MMSI",
+                            "officialNo": "Official No",
+                            "registry": "DNV-GL Registry",
+                            "builtYear": "Built Year",
+                            "builtAddress1": "Built Address 1",
+                            "builtAddress2": "Built Address 2",
+                            "officeTelephone": "Office Telephone",
+                            "fax": "Fax",
+                            "email": "Email"
+                        },
+                        "subGroups": {
+                            "ship": "Ship",
+                            "identification": "Identification",
+                            "built": "Built",
+                            "contact": "Contact"
+                        }
+                    },
+                    "registry": {
+                        "title": "Registry",
+                        "fields": {
+                            "name": "Name",
+                            "number": "Number",
+                            "issueDate": "Issue Date",
+                            "originCountry": "Origin Country",
+                            "portCode": "Port Code"
+                        },
+                        "subGroups": {
+                            "registry": "Registry",
+                            "issue": "Issue"
+                        }
+                    },
+                    "charterer": {
+                        "title": "Charterer",
+                        "fields": {
+                            "name": "Name",
+                            "registrationNo": "Registration No",
+                            "email": "Email",
+                            "phoneNo": "Phone No",
+                            "address1": "Address 1",
+                            "address2": "Address 2",
+                            "country": "Country"
+                        },
+                        "subGroups": {
+                            "personnel": "Personnel",
+                            "contact": "Contact",
+                            "address": "Address"
+                        }
+                    },
+                    "bareBoat": {
+                        "title": "Bare Boat Charterer",
+                        "fields": {
+                            "name": "Name",
+                            "registrationNo": "Registration No",
+                            "email": "Email",
+                            "phoneNo": "Phone No",
+                            "address1": "Address 1",
+                            "address2": "Address 2",
+                            "country": "Country"
+                        },
+                        "subGroups": {
+                            "personnel": "Personnel",
+                            "contact": "Contact",
+                            "address": "Address"
+                        }
+                    },
+                    "operator": {
+                        "title": "Operator",
+                        "fields": {
+                            "name": "Name",
+                            "registrationNo": "Registration No",
+                            "email": "Email",
+                            "phoneNo": "Phone No",
+                            "address1": "Address 1",
+                            "address2": "Address 2",
+                            "country": "Country"
+                        },
+                        "subGroups": {
+                            "personnel": "Personnel",
+                            "contact": "Contact",
+                            "address": "Address"
+                        }
+                    }
+                },
+                "capacityMachinery": {
+                    "title": "Capacity & Machinery",
+                    "loadLine": {
+                        "title": "LoadLine",
+                        "fields": {
+                            "grossTonnage": "Gross Tonnage (ton)",
+                            "netTonnage": "Nett Tonnage (ton)",
+                            "lengthOverall": "Length Overall (m)",
+                            "lengthBwperPerpendicular": "Length b/w Perpendicular (m)",
+                            "bredthMoulded": "Breadth Molded (m)",
+                            "draughtMoulded": "Draught Molded (m)",
+                            "depthMoulded": "Depth Molded (m)",
+                            "airDraught": "Air Draught (m)",
+                            "airDraughtCranes": "Air Draught Crane (m)"
+                        }
+                    },
+                    "dimensions": {
+                        "title": "Dimensions",
+                        "fields": {
+                            "lightVessel": "Light Vessel (ton) ",
+                            "summerDisplacement": "Summer Displacement ",
+                            "sdwt": "S DWT ",
+                            "sDraught": "S Draught ",
+                            "sFreeboard": "S Freeboard ",
+                            "fwAllowance": "F.W Allowance ",
+                            "fwFreeboard": "F.W Freeboard ",
+                            "wDraught": "W Draught ",
+                            "wdwt": "W DWT "
+                        }
+                    },
+                    "engine": {
+                        "title": "Engine",
+                        "thruster": "Thruster",
+                        "general": "General",
+                        "fields": {
+                            "mainEngine": "Main Engine",
+                            "srengNumber": "Number of Engine",
+                            "srengMaxSpeed": "Max Speed(knots)",
+                            "srengCapacity": "Engine Capacity(HP)",
+                            "bowThruster": "Bow Thruster",
+                            "thrusterType": "Thruster Type",
+                            "thrusterCapacity": "Thruster Capacity Detail",
+                            "rudderType": "Rudder Type",
+                            "propeller": "Propeller"
+                        }
+                    }
+                },
+                "safetyStructure": {
+                    "title": "Safety & Structure",
+                    "shipClassSpecificFields": {
+                        "title": "Ship Class Specific Fields",
+                        "fields": {
+                            "containers": "Number of Containers(TEU)",
+                            "count": "Number of Safety Equipment",
+                            "cargoCranes": "Number of Cargo Cranes",
+                            "cargoCranesDesc": "Description"
+                        }
+                    },
+                    "extraFields": {
+                        "title": "Extra Fields",
+                        "fields": {
+                            "referSockets": "Refer Sockets",
+                            "bollardPull": "Bollard Pull"
+                        }
+                    },
+                    "field": {
+                        "required": "Required",
+                        "min": "Input must be greater than or equal to {{min}}",
+                        "numberOnly": "Input allows only numbers. decimal is not allowed"
+                    }
+                },
+                "header": {
+                    "fields": {
+                        "registration": "Registration",
+                        "certificate": "Certificate",
+                        "ship": "Ship",
+                        "appliedPort": "Port",
+                        "expiryDate": "Expiry Date",
+                        "identification": "identification",
+                        "built": "Built",
+                        "contact": "Contact"
+                    }
+                }
+            }
+        }
+    }
+}

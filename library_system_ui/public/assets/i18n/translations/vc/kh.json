@@ -1,0 +1,165 @@
+{
+    "app": {
+        "type": "Vessel Call",
+        "workbench": "Workbench",
+        "msgs": {
+            "createSuccess": "Vessel Call {{appnId}} ត្រូវបានបង្កើត. អ្នកនឹងត្រូវបានបញ្ជូនបន្តទៅទំព័រកែសម្រួល.",
+            "updateSuccess": "Vessel Call {{appnId}} ត្រូវបានធ្វើបច្ចុប្បន្នភាព.",
+            "submitSuccess": "Vessel Call {{appnId}} ត្រូវបានបញ្ជូនដោយជោគជ័យ.",
+            "submitError": "Vessel Call {{appnId}} មិនអាចដាក់ស្នើសុំបានទេ",
+            "deleteSuccess": "លុបដោយជោគជ័យ!",
+            "action": "Vessel Call {{appnId}} ត្រូវបាន {{action}}."
+        },
+        "vc": {
+            "list": {
+                "vcrNo": "លេខ Vessel Call",
+                "port": "លេខកូដផែ",
+                "shipName": "ឈ្មោះនាវា",
+                "imoNo": "លេខ ​IMO.",
+                "voyageType": "ប្រភេទជើងដំណើរនាវា",
+                "voyageNo": "លេខជើងធើ្វដំណើរនាវា",
+                "eta": "កាលបរិច្ឆេទប៉ាន់ស្មាននៃការមកដល់",
+                "etaTime": "ពេលវេលា",
+                "etd": "កាលបរិច្ឆេទប៉ាន់ស្មាននៃការចាកចេញ",
+                "etdTime": "ពេលវេលា",
+                "submitDate": "កាលបរិច្ឆេទដាក់ស្នើ",
+                "createdBy": "អ្នក​ស្នើសុំ",
+                "applicant": "ក្រុមហ៊ុនស្នើសុំ",
+                "accountType": "ក្រុមហ៊ុន/ភ្នាក់ងារនាវា",
+                "reSubmitted": "បានដាក់ស្នើឡើងវិញ",
+                "status": "ស្ថានភាព"
+            },
+            "workbench": {
+                "list": {
+                    "applicationNo": "លេខពាក្យស្នើសុំ",
+                    "status": "ស្ថានភាព"
+                }
+            },
+            "tabs": {
+                "clearance": {
+                    "title": "ធ្វើបែបបទនាវា",
+                    "fields": {}
+                },
+                "generalDetails": {
+                    "title": "ព័ត៌មានលម្អិតទូទៅ",
+                    "subGroups": {
+                        "port": "ផែ",
+                        "ship": "នាវា",
+                        "voyage": "ការធ្វើដំណើរ",
+                        "officialUse": "Official Use",
+                        "notice": "នៅពេលដែល {{app}} ត្រូវបានអនុម័ត នោះចំនួនដងនៃការបញ្ចូលទិន្នន័យនឹងត្រូវបានដាក់កំរិត ដែលកំណត់ដោយប្រព័ន្ធ។."
+                    },
+                    "fields": {
+                        "port": "ផែ",
+                        "portOfDeparture": "កំពង់ផែចេញដំណើរ",
+                        "terminal": "ស្ថានីយ៍ Loading / Unloading",
+                        "terminalOfDeparture": "ស្ថានីយនៃការចាកចេញ",
+                        "officeCode": "Office Code",
+                        "shippingLine": "ក្រុមហ៊ុននាវា",
+                        "ship": "នាវា",
+                        "customsClearance": "ធ្វើបែបបទគយនៅព្រំដែន",
+                        "borderGate": "ច្រកព្រំដែន",
+                        "shipType": "ប្រភេទនាវា",
+                        "imoNo": "លេខ ​IMO",
+                        "callSign": "សញ្ញាហៅ",
+                        "countryOrigin": "ប្រទេសកំណើត",
+                        "lastCountry": "ប្រទេសចុងក្រោយ",
+                        "nextCountry": "ប្រទេសបន្ទាប់",
+                        "voyageType": "ប្រភេទជើងដំណើរនាវា",
+                        "eta": "កាលបរិច្ឆេទប៉ាន់ស្មាននៃការមកដល់",
+                        "etaTime": "ពេលវេលា",
+                        "inwardVoyageNo": "លេខជើងដំណើរនំាចូល",
+                        "edb": "កាលបរិច្ឆេទប៉ាន់ស្មាននៃការចុះចត",
+                        "edbTime": "ពេលវេលា",
+                        "etd": "កាលបរិច្ឆេទប៉ាន់ស្មាននៃការចាកចេញ",
+                        "etdTime": "ពេលវេលា",
+                        "atd": "កាលបរិច្ឆេទនៃការចាកចេញជាក់ស្តែង (ATD)",
+                        "atdTime": "ពេលវេលា",
+                        "ata": "កាលបរិច្ឆេទនៃការមកដល់ជាក់ស្តែង (ATA/ATB)",
+                        "ataTime": "ពេលវេលា",
+                        "atAnchor": "កាលបរិច្ឆេទបោះយុថ្កានៅស្ថានីយកណ្ណធារ",
+                        "anchorPortArea": "កាលបរិច្ឆេទបោះយុថ្កានៅកំពង់ផែ",
+                        "anchorPortAreaTime": "ពេលវេលា",
+                        "actualPilotOnBoard": "កាលបរិច្ឆេទពិតប្រាកដនៃកណ្ណធារឡើងនាវា",
+                        "actualPilotOnBoardTime": "ពេលវេលា",
+                        "lastPort": "កំពង់ផែចុងក្រោយ",
+                        "nextPort": "កំពង់ផែ បន្ទាប់",
+                        "outwardVoyageNumber": "លេខជើងដំណើរនំាចេញ",
+                        "noOfBarge": "ចំនួនសាឡង់",
+                        "bargeDesc": "ផ្សេងៗអំពីសាឡង់",
+                        "reqPilotOnBoard": "កាលបរិច្ឆេទនៃការស្នើសុំកណ្ណធារ",
+                        "reqPilotOnBoardTime": "ពេលវេលា",
+                        "reqCommOnBoard": "កាលបរិច្ឆេទនៃការស្នើសុំគណៈកម្មាធិការ",
+                        "reqCommOnBoardTime": "ពេលវេលា",
+                        "loa": "បណ្តោយសរុប (ម)",
+                        "draft": "ជំរៅស៊ីទឹកពេលមកដល់ (ម)",
+                        "pilotRequest": "ការស្នើសុំកណ្ណធារ",
+                        "radioOptions": {
+                            "yes": "បាទ/ចាស",
+                            "no": "ទេ"
+                        }
+                    }
+                },
+                "shipDetails": {
+                    "title": "ព័ត៌មានលម្អិតនាវា",
+                    "subGroups": {
+                        "tonnage": "ចំណុះផ្ទុក",
+                        "dimensions": "វិមាត្រ",
+                        "others": "ផ្សេងៗ"
+                    },
+                    "fields": {
+                        "netTonnage": "ចំណុះផ្ទុកសុទ្ធ (តោន)",
+                        "grossTonnage": "ចំណុះផ្ទុកសរុប (តោន)",
+                        "deadWeight": "ទម្ងន់ផ្ទុកសរុប (តោន)",
+                        "lengthOverAll": "បណ្តោយសរុប (ម៉ែត្រ)",
+                        "selectUOM": "ជ្រើសរើស UOM",
+                        "breadthOverAll": "ទទឹងសរុប (ម៉ែត្រ)",
+                        "arrivedPilotStation": "មកដល់ស្ថានីយ៍កំពង់ផែ",
+                        "arrivalDraft": "ជម្រៅស៊ីទឹកពេលមកដល់ (ម៉ែត្រ)",
+                        "arrDraftFrwrd": "ជម្រៅស៊ីទឹកពេលមកដល់ (ខាងមុខ)",
+                        "arrDraftAftr": "ជម្រៅស៊ីទឹកពេលមកដល់ (ខាងក្រោយ)",
+                        "depDraftFrwrd": "ជម្រៅទឹកពេលចេញដំណើរ (ខាងមុខ)",
+                        "depDraftAftr": "ជម្រៅទឹកពេលចេញដំណើរ (ខាងក្រោយ)",
+                        "airDraft": "កម្ពស់អាកាសនាវា"
+                    }
+                },
+                "recoveryDetails": {
+                    "title": "Recovery Details"
+                },
+                "cargoDetails": {
+                    "title": "ព័ត៌មានលម្អិតទំនិញ",
+                    "subGroups": {
+                        "generalCargo": "ទំនិញទូទៅ",
+                        "dangerousCargo": "ទំនិញគ្រោះថ្នាក់",
+                        "containerCargo": "កុងតឺន័រដឹកទំនិញ"
+                    },
+                    "fields": {
+                        "popup": {
+                            "generalCargoTitle": "ព័ត៌មានលម្អិតអំពីទំនិញទូទៅ",
+                            "containerCargoTitle": "ព័ត៌មានលម្អិតអំពីទំនិញកុងតឺន័រ",
+                            "dangerousCargoTitle": "ព័ត៌មានលម្អិតអំពីទំនិញគ្រោះថ្នាក់",
+                            "othSize": "ទំហំផ្សេងៗ",
+                            "cargoType": "ប្រភេទទំនិញ",
+                            "dgType": "ប្រភេទ",
+                            "cargoName": "ឈ្មោះទំនិញ",
+                            "empty": "ទទេ",
+                            "laden": "ផ្ទុក",
+                            "containerType": "ប្រភេទកុងតឺន័រ",
+                            "containerSize": "ទំហំកុងតឺន័រ",
+                            "totalQty": "បរិមាណ​សរុប",
+                            "qty": "បរិមាណ​",
+                            "type": "ប្រភេទ",
+                            "selectCargoType": "ជ្រើសរើសប្រភេទទំនិញ"
+                        },
+                        "genCargoTotalQty": "បរិមាណ​សរុប : ",
+                        "dangCargoTotalQty": "បរិមាណ​សរុប : ",
+                        "cntrCargoTotalLaden": "សរុបពេញ : ",
+                        "cntrCargoTotalEmpty": "សរុបទទេ : ",
+                        "required": "ចន្លោះនេះត្រូវតែបំពេញ",
+                        "crdtNameOfCrgLength": "Name of Cargo length could not be bigger than 45."
+                    }
+                }
+            }
+        }
+    }
+}
