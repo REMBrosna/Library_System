@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.8.0.final using JasperReports Library version 6.8.0-2ed8dfabb690ff337a5797129f2cd92902b0c87b  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="BookReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9bbbff5c-dea4-4e25-82f8-19faa270fa2a">
+	<parameter name="PARAM_INFO" class="java.util.HashMap"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="bookReport" class="java.util.List"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="50" splitType="Stretch">
+			<staticText>
+				<reportElement x="180" y="10" width="200" height="30" uuid="d820a181-f3fa-4754-9a60-db3268cc968b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Book Report]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="30" uuid="c17a1f3f-bcf0-41d0-9926-95006560fb09">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<staticText>
+					<reportElement x="0" y="0" width="80" height="30" uuid="8bdd80ed-a8db-47de-b47a-af78d8686e3c"/>
+					<box>
+						<pen lineWidth="0.5"/>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Book ID]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="81" y="0" width="110" height="30" uuid="23b65c96-5e16-4faf-be44-07c4b2b5a77c"/>
+					<box>
+						<rightPen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Title]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="191" y="0" width="100" height="30" uuid="0b5e6393-836c-44a4-866c-a461abe5e2ec"/>
+					<box>
+						<rightPen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Author]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="291" y="0" width="99" height="30" uuid="5cb116f3-6e3a-434f-a511-dea0d4d392ed"/>
+					<box>
+						<rightPen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Public Date]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="480" y="0" width="75" height="30" uuid="ad50a103-6edd-4c36-b689-c8e7b83d94cb"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Status]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="390" y="0" width="90" height="30" uuid="b35361c1-d930-46e6-9f97-4cdc0deb5807"/>
+					<box>
+						<rightPen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Qty]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="27" splitType="Stretch">
+			<subreport>
+				<reportElement x="0" y="0" width="555" height="27" uuid="1a7995dc-a053-45e8-8d09-85415a4f8c9c"/>
+				<parametersMapExpression><![CDATA[$P{PARAM_INFO}]]></parametersMapExpression>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{bookReport})]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{PARAM_INFO}.get( "subReportPath" )]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>
